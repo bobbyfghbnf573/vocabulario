@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const submitButton = document.getElementById("submit");
 
   // Cargar el archivo voc.json
-  fetch('vocU4.json')
+  fetch('voc.json')
     .then(response => response.json())
     .then(data => {
       // Convertir el objeto en un array de objetos {french, spanish}
